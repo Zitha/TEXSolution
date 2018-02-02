@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEX.ConsoleApp", "..\TEX.ConsoleApp\TEX.ConsoleApp.csproj", "{67B77CE2-B19D-41AE-85BB-E3747D25F871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEX.Model", "..\TEX.Model\TEX.Model.csproj", "{DB6173AE-F696-4559-91E5-5F2BB2C16F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEX.PDFGenerator", "..\TEX.PDFGenerator\TEX.PDFGenerator.csproj", "{3E87A8E4-A889-441D-A8DB-1EA44B92B363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text.Data", "..\Text.Data\Text.Data.csproj", "{DA8F4D62-1DCD-4939-935F-86A2D9DEEC2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEXWebservice", "..\TEXWebservice\TEXWebservice.csproj", "{D43A70A6-08E2-48CF-A19E-074A469FDADD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TEX.UI", "..\TEX.UI\TEX.UI.csproj", "{128F2CBA-C598-47C1-AAC8-0EA554993C6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEX.Service", "TEX.Service\TEX.Service.csproj", "{BC9FAFE8-7B86-457E-970A-AFDDB54CCBF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B77CE2-B19D-41AE-85BB-E3747D25F871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B77CE2-B19D-41AE-85BB-E3747D25F871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B77CE2-B19D-41AE-85BB-E3747D25F871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B77CE2-B19D-41AE-85BB-E3747D25F871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6173AE-F696-4559-91E5-5F2BB2C16F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6173AE-F696-4559-91E5-5F2BB2C16F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6173AE-F696-4559-91E5-5F2BB2C16F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6173AE-F696-4559-91E5-5F2BB2C16F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E87A8E4-A889-441D-A8DB-1EA44B92B363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E87A8E4-A889-441D-A8DB-1EA44B92B363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E87A8E4-A889-441D-A8DB-1EA44B92B363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E87A8E4-A889-441D-A8DB-1EA44B92B363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8F4D62-1DCD-4939-935F-86A2D9DEEC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8F4D62-1DCD-4939-935F-86A2D9DEEC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8F4D62-1DCD-4939-935F-86A2D9DEEC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8F4D62-1DCD-4939-935F-86A2D9DEEC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43A70A6-08E2-48CF-A19E-074A469FDADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43A70A6-08E2-48CF-A19E-074A469FDADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43A70A6-08E2-48CF-A19E-074A469FDADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43A70A6-08E2-48CF-A19E-074A469FDADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128F2CBA-C598-47C1-AAC8-0EA554993C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128F2CBA-C598-47C1-AAC8-0EA554993C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128F2CBA-C598-47C1-AAC8-0EA554993C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128F2CBA-C598-47C1-AAC8-0EA554993C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9FAFE8-7B86-457E-970A-AFDDB54CCBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9FAFE8-7B86-457E-970A-AFDDB54CCBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9FAFE8-7B86-457E-970A-AFDDB54CCBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9FAFE8-7B86-457E-970A-AFDDB54CCBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
